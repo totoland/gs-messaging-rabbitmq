@@ -2,7 +2,7 @@ version: '2'
 
 services:
   rabbitmq:
-    image: rabbitmq:management
+    image: rabbitmq-enable-delayed:1.0
     ports:
       - "5672:5672"
       - "15672:15672"
